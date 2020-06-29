@@ -164,3 +164,10 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Credentials, cache, etc.
+cache.txt
+config.ini
+credentials.json
+token.pickle
+keywords.txt
