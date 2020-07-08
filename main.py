@@ -108,7 +108,7 @@ class DiskSubmissionIDCache:
             with open(self.path, "r") as f:
                 for line in f:
                     self.seen_comment_ids.add(line.rstrip())
-            print(self.seen_comment_ids)
+            print(f"{len(self.seen_comment_ids)} comments seen")
         except OSError as error:
             print("Couldn't open file {0}").format(error.strerror)
             pass
